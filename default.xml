@@ -2,12 +2,12 @@
 <manifest>
 
 <!-- define repositories -->
-<remote name="upstream" fetch="https://github.com/buildingfirefoxos/"/>
+<remote name="upstream" fetch="https://github.com/gasolin/"/>
 
 <!-- specify revisions sync-j means download threads number  -->
 <default sync-j="4"/>
 https://github.com/buildingfirefoxos/Building-Blocks/releases/tag/v1.2.1
-<project remote="upstream" revision="refs/heads/v1.2.1" name="Building-Blocks" path="old"/>
-<project remote="upstream" revision="refs/heads/v1.3.1" name="Building-Blocks" path="new"/>
-<project remote="upstream" revision="refs/heads/gh-pages" name="Building-Blocks" path="edge"/>
+<project remote="upstream" revision="refs/heads/v1.1.0" name="fxosbmi" path="old"/>
+<project remote="upstream" revision="refs/heads/indexedDB" name="fxosbmi" path="db"/>
+<project remote="upstream" revision="refs/heads/master" name="fxosbmi" path="edge"/>
 </manifest>
